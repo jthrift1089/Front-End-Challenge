@@ -1,574 +1,102 @@
-
-
-
-body {
-  background-color: #333;
-  font-family: sans-serif;
-
+*, *:before, *:after {
+  box-sizing: border-box;
 }
 
-label {
-  position: absolute;
-width: 345px;
-height: 28px;
-left: 16px;
-top: 75px;
+body{
+    font-family: roboto;
+    font-size: 100%;
+  }
 
-background: #FFFFFF;
-border-radius: 5px;
-font-family: Roboto Medium;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 22px;
-}
-
-
-h1 {
-  position: absolute; width: 375px; height: 35px; left: 0px; top: 30px; color: #DDAC00; font-family: sans-serif; font-size: 16px; font-style: normal; font-weight: bold; line-height: 19px; text-align: center;
-}
-
-
-.one {
-  position: absolute;
-  width: 113px;
-  height: 35px;
-  left: 120px;
-  top: 20px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-
-}
-
-.one-min {
-  position: absolute;
-  width: 113px;
-  height: 35px;
-  left: 273px;
-  top: 20px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.one-line {
-  position: absolute;
-  width: 42px;
-  height: 35px;
-  left: 26px;
-  top: 20px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-
-
-.one-destination {
-  position: absolute;
-  width: 152px;
-  height: 35px;
-  left: 120px;
-  top: 40px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #FFFFFF;
-}
-
-.two {
-  position: absolute;
-  width: 148px;
-  height: 35px;
-  left: 120px;
-  top: 80px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.two-min {
-position: absolute;
-width: 113px;
-height: 35px;
-left: 273px;
-top: 80px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF;
-}
-
-.two-line {
-  position: absolute;
-  width: 42px;
-  height: 35px;
-  left: 26px;
-  top: 80px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.two-destination {
-  position: absolute;
-  width: 152px;
-  height: 35px;
-  left: 120px;
-  top: 100px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #FFFFFF;
-}
-
-.three {
-  position: absolute;
-  width: 113px;
-  height: 35px;
-  left: 120px;
-  top: 140px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.three-min {
-  position: absolute;
-  width: 113px;
-  height: 35px;
-  left: 273px;
-  top: 140px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.three-destination {
-  position: absolute;
-  width: 152px;
-  height: 35px;
-  left: 120px;
-  top: 160px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #FFFFFF;
-}
-
-.three-line {
-  position: absolute;
-  width: 42px;
-  height: 35px;
-  left: 26px;
-  top: 140px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.four {
-position: absolute;
-width: 160px;
-height: 35px;
-left: 120px;
-top: 200px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF;
-}
-
-.four-line {
-  position: absolute;
-  width: 42px;
-  height: 35px;
-  left: 26px;
-  top: 200px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.four-min {
-position: absolute;
-width: 113px;
-height: 35px;
-left: 273px;
-top: 200px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF;
-}
-
-.four-destination {
-  position: absolute;
-width: 152px;
-height: 35px;
-left: 120px;
-top: 220px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-color: #FFFFFF;
-}
-
-
-
-.five {
-position: absolute;
-width: 160px;
-height: 35px;
-left: 120px;
-top: 260px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF;
-}
-
-.five-line {
-position: absolute;
-width: 42px;
-height: 35px;
-left: 26px;
-top: 260px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF;
-}
-
-.five-min {
-  position: absolute;
-  width: 113px;
-  height: 35px;
-  left: 273px;
-  top: 260px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.five-destination {
-  position: absolute;
-  width: 152px;
-  height: 35px;
-  left: 120px;
-  top: 280px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #FFFFFF;
-}
-
-
-.six {
-  position: absolute;
-  width: 113px;
-  height: 35px;
-  left: 120px;
-  top: 320px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.six-line {
-  position: absolute;
-  width: 42px;
-  height: 35px;
-  left: 26px;
-  top: 320px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.six-min {
-  position: absolute;
-  width: 113px;
-  height: 35px;
-  left: 273px;
-  top: 320px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-}
-
-.six-destination {
-position: absolute;
-width: 152px;
-height: 35px;
-left: 120px;
-top: 340px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-color: #FFFFFF;
-}
-
-
-.seven {
-position: absolute;
-width: 113px;
-height: 35px;
-left: 120px;
-top: 380px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 19px;
-color: #949494;
-}
-
-.seven-line {
-  position: absolute;
-  width: 42px;
-  height: 35px;
-  left: 26px;
-  top: 380px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #949494;
-}
-
-.seven-min {
-position: absolute;
-width: 113px;
-height: 35px;
-left: 273px;
-top: 380px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-color: #949494;
-}
-
-.seven-destination {
-  position: absolute;
-  width: 152px;
-  height: 35px;
-  left: 120px;
-  top: 400px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #949494;
-}
-
-
-
-.eight {
-  position: absolute;
-  width: 113px;
-  height: 35px;
-  left: 120px;
-  top: 440px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #949494;
-}
-
-.eight-line {
-position: absolute;
-width: 42px;
-height: 35px;
-left: 26px;
-top: 440px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 19px;
-color: #949494;
-}
-
-.eight-min {
-  position: absolute;
-  width: 113px;
-  height: 35px;
-  left: 273px;
-  top: 440px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #949494;
-}
-
-.eight-destination {
-position: absolute;
-width: 152px;
-height: 35px;
-left: 120px;
-top: 460px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 17px;
-color: #949494;
-}
-
-
-
-.nine {
-  position: absolute;
-  width: 113px;
-  height: 35px;
-  left: 120px;
-  top: 500px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #949494;
-}
-
-.nine-line {
-  position: absolute;
-  width: 42px;
-  height: 35px;
-  left: 26px;
-  top: 500px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #949494;
-}
-
-.nine-min {
-position: absolute;
-width: 113px;
-height: 35px;
-left: 273px;
-top: 500px;
-font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
-color: #949494;
-}
-
-.nine-destination {
-  position: absolute;
-  width: 152px;
-  height: 35px;
-  left: 120px;
-  top: 520px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #949494;
-}
-
-Nav {
-  position: absolute;
+  .container {
+  margin: 0 auto;
   width: 375px;
-  height: 109px;
-  left: 0px;
-  font-family: sans-serif;
-  top: 0px;
+  margin-left: 80px;
   background-color: #272727;
 }
 
-.container {
-  position: absolute;
-  width: 375px;
-  height: 558px;
-  left: 0px;
-  top: 109px;
-  background-color:#272727;
+header {
+
+  background-image: url("Base.png");
+  background-repeat: no-repeat;
+  height: 109px;
 }
 
-hr {
+nav {
+  display: inline-block;
+  padding-left: 13px;
+  color: #DDAC00;
+  width: 375px;
+  padding-top: 35px;
+}
+
+.searchbar {
+  display: inline-block;
+  background: white;
+  border-radius: 5px;
+  width: 345px;
+  height: 28px;
+  margin-left: 16px;
+  margin-top: 30px;
+}
+
+.searchbar {
+  color: #838383;
+}
+
+.fa-search {
+  color: #838383;
+}
+
+.fa-search, div p {
+  display: inline-block;
+}
+
+
+nav p {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+nav h1 {
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 16pt;
+}
+
+
+.row {
+  height: 70px;
+  margin-left: 16px;
+  border-bottom: 1px solid #DDAC00;
+  width: 95%;
+  padding-top: 25px;
+}
+
+
+.busnumber {
+  display: inline-block;
+  width: 42px;
+  color: white;
+}
+
+
+.dest {
+  display: inline-block;
+  width: 200px;
+  padding-left: 40px;
+  color: white;
+}
+
+.time {
+  display: inline-block;
+  width: 80px;
+  padding-left: 10px;
+  color: white;
+}
+
+.chevron {
+  display: inline-block;
+  width: 20px;
+  color: white;
   float: right;
-  margin-left: 4%;
-  width: 349px;
-  left: 26px;
-  top: 175px;
-  margin-bottom: 50px;
-  border: 1px solid #CDA000;
 }
