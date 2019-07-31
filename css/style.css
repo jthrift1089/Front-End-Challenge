@@ -32,14 +32,13 @@ nav {
 
 
 .search {
-background-image:url('search.png');
-background-image: repeat;
-margin-top: 5%;
-margin-left: 4%;
+
+margin: auto;
+
 padding-left:40px;
-font-family: roboto;
-font-size: 100%;
-display: inline-block;
+font-family:  'roboto'; sans-serif;
+font-size: 90%;
+
 width: 345px;
 height: 28px;
 background: #FFFFFF;
@@ -63,16 +62,18 @@ nav h1 {
 
 
 .row {
+  display: flex;
   height: 70px;
   margin-left: 16px;
   border-bottom: 1px solid #DDAC00;
   width: 95%;
   padding-top: 25px;
+  line-height: 18px;
 }
 
 
 .busnumber {
-  display: inline-block;
+
   width: 10px;
   color: white;
   float: left;
@@ -80,30 +81,31 @@ nav h1 {
 
 
 .dest {
-  display: inline-block;
-  width: 160px;
+
+  width: 250px;
   padding-left: 30px;
   color: white;
 
 }
 
 .time {
-  display: inline-block;
+
   width: 100px;
   padding-left: 10px;
+
   color: white;
 
 }
 
 .freq {
-  display: inline-block;
+
   width: 150px;
   padding-left: 10px;
   color: white;
 }
 
 .chevron {
-  display: inline-block;
+margin-left: 50px;
   width: 20px;
   color: white;
   float: right;
